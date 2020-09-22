@@ -1,3 +1,5 @@
+package FormsPackage;
+
 
 import javax.swing.JOptionPane;
 
@@ -167,12 +169,7 @@ public class AreaMenu extends javax.swing.JFrame {
     //Se configura el boton de Salir para que salga del programar al momento de
     //Indicarle que si quiere salir
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        int confirma=JOptionPane.showConfirmDialog(rootPane, "¿Esta seguro que desea salir?");
-        if(JOptionPane.OK_OPTION==confirma){
-            System.exit(1);}
-            else 
-            if(JOptionPane.CANCEL_OPTION==confirma){
-    }
+        dispose(); 
     }//GEN-LAST:event_jButton4ActionPerformed
 //Aqui le indicamos a los botones que al momento de dar clic, muestre un mensaje
     // de lo que esta presionando
